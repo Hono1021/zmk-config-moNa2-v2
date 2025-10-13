@@ -87,10 +87,10 @@
 
         layer_1 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3      &kp NUMBER_4       &kp NUMBER_5                       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp SLASH
-&trans        &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                  &kp APOS   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp UNDER     &kp RS(SEMI)
-&trans        &trans          &trans            &trans             &trans        &trans    &kp SEMI   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL     &kp RS(APOS)
-&kp LCTRL     &kp LEFT_SHIFT  &kp LEFT_ALT      &trans             &trans        &trans    &kp COMMA  &kp DOT                                                 &kp RS(UNDER)
+&kp F1     &kp F2          &kp F3        &kp F4   &kp F5                        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp SLASH
+&kp F6     &kp F7          &kp F8        &kp F9   &kp F10            &kp APOS   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp UNDER     &kp RS(SEMI)
+&kp F11    &kp F12         &kp F13       &kp F14  &kp F15  &trans    &kp SEMI   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL     &kp RS(APOS)
+&kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &trans   &trans   &trans    &kp COMMA  &kp DOT                                                 &kp RS(UNDER)
             >;
 
             sensor-bindings = <&scroll_right_left>;

@@ -67,6 +67,18 @@
 
             label = "NEW_MACRO";
         };
+
+        new_macro1: new_macro1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&tog_off 7>,
+                <&macro_wait_time 200>,
+                <&bt BT_SEL 1>,
+                <&macro_wait_time 500>;
+
+            label = "NEW_MACRO1";
+        };
     };
 
     behaviors {

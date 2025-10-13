@@ -43,7 +43,7 @@
             label = "TO_LAYER_0";
         };
 
-        macro0: new_macro {
+        win0: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -56,7 +56,7 @@
             label = "NEW_MACRO";
         };
 
-        macro1: new_macro {
+        iPad1: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -68,7 +68,7 @@
             label = "NEW_MACRO";
         };
 
-        macro2: new_macro1 {
+        work2: new_macro1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =

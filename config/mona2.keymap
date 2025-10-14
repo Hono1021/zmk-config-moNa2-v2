@@ -33,11 +33,6 @@
             bindings = <&kp TAB>;
             key-positions = <11 12>;
         };
-
-        layer7_ESC {
-            bindings = <&lt 7 ESCAPE>;
-            key-positions = <37 38>;
-        };
     };
 
     macros {

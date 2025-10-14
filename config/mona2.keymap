@@ -130,7 +130,7 @@
 &kp Q      &kp W           &kp E         &kp R          &kp T                                                          &kp Y        &kp U  &lt_to_layer_0 3 I  &kp O    &kp P
 &kp A      &kp S           &kp D         &kp F          &kp G                                  &kp APOS                &kp H        &kp J  &kp K               &kp L    &kp RETURN
 &kp Z      &kp X           &kp C         &kp V          &kp B        &kp LEFT_GUI              &kp SEMI                &kp N        &kp M  &kp COMMA           &kp DOT  &kp DELETE
-&kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp BACKSPACE  &lt 2 LANG2  &lt_to_layer_0 1 LANG1    &lt_to_layer_0 3 SPACE  &lt 1 ENTER                                      &kp ESCAPE
+&kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp BACKSPACE  &lt 2 LANG2  &lt_to_layer_0 1 LANG1    &lt_to_layer_0 3 SPACE  &lt 1 ENTER                                      &lt_to_layer_0 2 ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -138,10 +138,10 @@
 
         layer_1 {
             bindings = <
-&kp F1     &kp F2          &kp F3        &kp F4   &kp F5                           &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp SLASH
-&kp F6     &kp F7          &kp F8        &kp F9   &kp F10               &kp APOS   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp UNDER     &kp RS(SEMI)
-&kp F11    &kp F12         &kp F13       &kp F14  &kp F15   &trans      &kp SEMI   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL     &kp RS(APOS)
-&kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &trans   &mkp MB4  &mkp MB5    &kp COMMA  &kp DOT                                                 &kp RS(UNDER)
+&kp F1     &kp F2          &kp F3        &kp F4   &kp F5                           &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &kp SLASH
+&kp F6     &kp F7          &kp F8        &kp F9   &kp F10               &kp APOS   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp UNDERSCORE  &kp RS(SEMI)
+&kp F11    &kp F12         &kp F13       &kp F14  &kp F15   &trans      &kp SEMI   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL       &kp RS(APOS)
+&kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &trans   &mkp MB4  &mkp MB5    &kp COMMA  &kp DOT                                                   &kp RS(UNDER)
             >;
 
             sensor-bindings = <&scroll_right_left>;

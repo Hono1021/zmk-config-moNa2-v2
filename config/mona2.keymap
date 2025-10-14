@@ -210,8 +210,8 @@
         layer_7 {
             bindings = <
 &kp Q      &kp W           &kp E         &kp R                         &kp T                                                 &kp Y        &kp U  &lt_to_layer_0 3 I  &kp O    &kp P
-&kp A      &kp S           &kp D         &kp F                         &kp G                                  &kp APOS       &kp H        &kp J  &kp K               &kp L    &kp RETURN
-&kp Z      &kp X           &kp C         &kp V                         &kp B        &kp LEFT_GUI              &kp SEMI       &kp N        &kp M  &kp COMMA           &kp DOT  &kp DELETE
+&kp A      &kp S           &kp D         &kp F                         &kp G                                  &kp COLON      &kp H        &kp J  &kp K               &kp L    &kp RETURN
+&kp Z      &kp X           &kp C         &kp V                         &kp B        &kp TAB                   &kp SEMI       &kp N        &kp M  &kp COMMA           &kp DOT  &kp DELETE
 &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &lt_to_layer_0 10 LANGUAGE_1  &lt 9 LANG2  &lt_to_layer_0 8 SPACE    &kp BACKSPACE  &lt 8 ENTER                                      &lt_to_layer_0 2 ESCAPE
             >;
 
@@ -220,10 +220,10 @@
 
         layer_8 {
             bindings = <
-&kp F1     &kp F2          &kp F3        &kp F4   &kp F5                           &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &kp SLASH
-&kp F6     &kp F7          &kp F8        &kp F9   &kp F10               &kp APOS   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp UNDERSCORE  &kp RS(SEMI)
-&kp F11    &kp F12         &kp F13       &kp F14  &kp F15   &trans      &kp SEMI   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL       &kp RS(APOS)
-&kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &trans   &mkp MB4  &mkp MB5    &kp COMMA  &kp DOT                                                   &kp RS(UNDER)
+&kp F1     &kp F2          &kp F3        &kp F4   &kp F5                           &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp SLASH
+&kp F6     &kp F7          &kp F8        &kp F9   &kp F10               &kp COLON  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS     &kp PLUS
+&kp F11    &kp F12         &kp F13       &kp F14  &kp F15   &kp TAB     &kp SEMI   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp CARET     &kp ASTRK
+&kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &trans   &mkp MB4  &mkp MB5    &kp COMMA  &kp DOT                                                 &kp EQUAL
             >;
 
             sensor-bindings = <&scroll_right_left>;
@@ -231,9 +231,9 @@
 
         layer_9 {
             bindings = <
-&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)                                                       &kp RS(NUMBER_6)      &kp RS(NUMBER_7)      &kp RS(N8)  &kp RS(NUMBER_9)  &kp LEFT_BRACE
-&kp RIGHT_BRACE   &kp BACKSLASH     &kp UNDERSCORE    &kp EQUAL         &kp PRINTSCREEN                         &kp RS(INTERNATIONAL_1)  &trans                &mkp MB1              &mkp MB3    &mkp MB2          &trans
-&kp LS(SLASH)     &kp APOS          &kp COLON         &kp EQUAL         &kp LS(EQUAL)    &kp INTERNATIONAL_3    &kp INTERNATIONAL_1      &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans      &trans            &trans
+&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)                                                       &kp RS(NUMBER_6)      &kp RS(NUMBER_7)      &kp RS(N8)  &kp RS(NUMBER_9)  &kp RS(KP_NUMBER_0)
+&kp LEFT_BRACE    &kp RIGHT_BRACE   &kp MINUS         &kp EQUAL         &kp PRINTSCREEN                         &kp RS(INTERNATIONAL_1)  &trans                &mkp MB1              &mkp MB3    &mkp MB2          &trans
+&kp LS(SLASH)     &kp COLON         &kp COLON         &kp TILDE         &kp PIPE         &kp INTERNATIONAL_3    &kp BACKSLASH            &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans      &trans            &trans
 &kp LCTRL         &kp LEFT_SHIFT    &kp LEFT_ALT      &trans            &trans           &trans                 &kp PAGE_UP              &kp PAGE_DOWN                                                             &trans
             >;
 

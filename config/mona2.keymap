@@ -175,10 +175,10 @@
 
         win_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R        &kp T                                      &kp Y          &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F        &kp G                       &kp MINUS      &kp H          &kp J  &kp K      &kp L    &lt 4 SEMICOLON
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V        &kp B        &kp COLON      &kp SEMICOLON  &kp N          &kp M  &kp COMMA  &kp DOT  &lt 10 SLASH
-&kp RCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 GRAVE  &lt 4 SPACE  &lt 6 MINUS    &kp ENTER      &kp BACKSPACE                             &kp RIGHT_SHIFT
+&kp Q             &kp W           &kp E         &kp R        &kp T                                                &kp Y          &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S           &kp D         &kp F        &kp G                                 &kp SEMICOLON  &kp H          &kp J  &kp K      &kp L    &lt 4 MINUS
+&kp Z             &kp X           &kp C         &kp V        &kp B        &mt 458979 34013240      &kp SQT        &kp N          &kp M  &kp COMMA  &kp DOT  &lt 10 SLASH
+&kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &lt 2 LANG2  &lt 4 LANG1  &lt 6 SPACE              &kp ENTER      &kp BACKSPACE                             &kp RIGHT_SHIFT
             >;
 
             sensor-bindings =
